@@ -15,8 +15,7 @@
             <Entry x:Name="txtSecondNumber" Keyboard="Numeric"/>
             
             <Label x:Name="lblDisplay" Text="0" HorizontalOptions="Center" FontSize="title" Margin="0,50"/>
-            
-            <Button Text="Add" Clicked="AddAdd_OnClicked"/>
+                       <Button Text="Add" Clicked="Add_OnClicked"/>
             <Button Text="Clear" Clicked="Clear_OnClicked"/>
             
         </VerticalStackLayout>
